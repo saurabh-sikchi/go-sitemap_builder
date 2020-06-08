@@ -1,0 +1,202 @@
+## Usage
+
+```
+$ go run main.go -url https://saurabhsikchi.hashnode.dev -depth 5
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://saurabhsikchi.hashnode.dev</loc>
+  </url>
+  <url>
+    <loc>https://saurabhsikchi.hashnode.dev/</loc>
+  </url>
+  <url>
+    <loc>https://saurabhsikchi.hashnode.dev/rss.xml</loc>
+  </url>
+  <url>
+    <loc>https://saurabhsikchi.hashnode.dev/go-handling-http-requests-for-beginners-cka5cd3ti00op9ws1qefjvde5</loc>
+  </url>
+  <url>
+    <loc>https://saurabhsikchi.hashnode.dev/why-automated-testing-is-important-ck9tkln7m02he7bs161ge3v7v</loc>
+  </url>
+</urlset>
+```
+
+```
+$ go run main.go -url http://www.paulgraham.com -depth 4
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://www.paulgraham.com/genius.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/index.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/say.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/porsche695.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/wealth.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/hpj.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/symptg.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/cities.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/perils.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/top.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/progbot.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/1974-911s.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/pilate.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/power.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/leonardo.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/nov.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/love.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/diff.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/procrastination.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/disc.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/taste.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/arc.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/kids.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/hackpaint.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/gh.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/hperrata.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/bias.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/labels.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/mean.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/bel.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/corpdev.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/guggen.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/pypar.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/aap.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/ https://tldrarabiccontents.blogspot.com/2020/02/blog-post_3.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/rootsoflisp.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/hunters.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/womb.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/hamming.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/useful.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/saynotes.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/hptoc.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/work.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/icad.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/pantheon.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/history.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/carl.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/avg.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/noob.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/resay.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/sr71.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/cornpone.html</loc>
+  </url>
+  <url>
+    <loc>http://www.paulgraham.com/essay.html</loc>
+  </url>
+</urlset>
+```
+
+## Dependencies
+
+Depens on the `link` package I built in my repo https://github.com/saurabh-sikchi/go-html_link_parser
+
